@@ -1,7 +1,7 @@
 # Quantum_Simulator
 Classical Simulator for Quantum Computer using basic python.
 
-## Creating Quantum Circuit class
+## Creating object of Quantum Circuit class
 qc = QuantumCircuit(n)
 
 ## Single qubit gates
