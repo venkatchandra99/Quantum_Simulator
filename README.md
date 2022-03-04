@@ -8,7 +8,7 @@ qc = QuantumCircuit(n)
 qc.apply_gate('gate' , [qubit number])
 
 ## Two qubit gates
-qc.apply_gate('two qubit gate' , [[control bit],[target qubit]])
+qc.apply_gate('two qubit gate' , [ [control bit] , [target qubit] ])
 
 ## Three qubit gates
 qc.apply_gate('ccx' , [ [contro_1, control_2] , [target] ])
