@@ -17,8 +17,9 @@ qc.apply_gate('ccx' , [ [contro_1, control_2] , [target] ])
 qc.to_gate(label = "name of gate")
 
 ## User defined gates
-[^1]:qc2 = QuantumCircuit(m)   #where m >= n ,
-[^2]:qc2.apply_gate("name of user defined gate" , [0 to n numbers])
+qc2 = QuantumCircuit(m)   #where m >= n ,
+
+qc2.apply_gate("name of user defined gate" , [0 to n numbers])
 
 ## Getting Statevector
 qc.statevector()
